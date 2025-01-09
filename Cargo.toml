@@ -1,0 +1,23 @@
+[package]
+name = "text2v"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kurbo = "0.11.1"
+rustybuzz = "0.20.1"
+ttf-parser = "0.8.0"
+unicode-script = "0.5.7"
+
+[features]
+default = ["monospace-font"]
+monospace-font = []
+normal-font = []
+
+[[example]]
+name = "rough"
+required-features = ["monospace-font"]
+
+[dev-dependencies]
+piet = "0.7.0"
+piet-common = { version = "0.7", features = ["png"] }
