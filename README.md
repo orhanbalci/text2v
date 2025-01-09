@@ -1,7 +1,7 @@
 # text2v
 Library to convert text into vector primitives from [kurbo](https://github.com/linebender/kurbo) crate.
 This project is a reimplementation of [fonterator](https://github.com/ardaku/fonterator) that replaces the underlying [footile](https://github.com/DougLau/footile) graphics primitives with equivalent functionality from the [kurbo](https://github.com/linebender/kurbo) crate.
-Main motivation for this project is to be able to produce [rough]() styled text.
+Main motivation for this project is to be able to produce [rough](https://github.com/orhanbalci/rough-rs) styled text.
 
 ## Example
 
